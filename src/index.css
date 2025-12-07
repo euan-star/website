@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+.aurora-container {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  /* min-width: 320px; */
+  /* font-weight: 700; */
+}
+
+#Home {
+  color: #7a7a7a;
+  font-size: small;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  font-weight: 100;
+}
+
+#about {
+  color: #7a7a7a;
+  font-size: small;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  font-weight: 100;
+}
+
+#Header {
+  color: #7a7a7a;
+  font-size: small;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  font-weight: 100;
+}
+
+#para {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+  width: auto;
+  margin-right: 70px;
+}
+
+#Name {
+  font-size: 250%;
+}
+
+hr {
+  border: none;
+  /* Remove default browser border */
+  height: 1px;
+  /* Set the thickness */
+  background-color: #333;
+  /* Set the color for modern browsers */
+  color: #333;
+  /* Fallback for older IE versions */
+  margin-top: 5%;
+}
+
+#Sub {
+  letter-spacing: 5px;
+  color: #7a7a7a;
+  font-size: large;
+  margin-top: 30px;
+  font-weight: 100;
+}
+
+button {
+  margin: 0%;
+  margin-top: 1%;
+  margin-right: 7%;
+  background-color: transparent;
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: #2b2b2b;
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+button:hover {
+  border-color: #fcfcfc;
+}
+
+#para1 {
+  font-size: medium;
+  font-weight: 100;
+
+  border-radius: 15px;
+}
+
+#sub-para {
+  display: flex;
+}
+
+#box1 {
+  width: 250px;
+  margin-right: 50px;
+}
+
+#Project {
+  margin-top: 10px;
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+.Name {
+  display: inline-block;
+}
+
+.text {
+  font-size: 5em;
+  letter-spacing: 10px;
+  font-family: monospace;
+  border-right: 5px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+
+  /* Separate animations for typing and cursor */
+  animation: typing 3s steps(25) forwards, blink 0.8s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.top-aurora,
+.bottom-aurora {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* adjust as needed */
+  pointer-events: none; /* lets clicks go through */
+  z-index: -1; /* behind your content */
+  opacity: 0.5; /* makes it semi-transparent */
+  filter: brightness(70%); /* reduces intensity */
+}
+
+/* Top stays normal */
+.top-aurora {
+  top: 0;
+}
+
+/* Bottom flipped upside down */
+.bottom-aurora {
+  bottom: 0;
+  transform: rotate(180deg);
+}
