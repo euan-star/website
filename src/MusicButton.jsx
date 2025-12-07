@@ -37,7 +37,7 @@ export default function MusicButton() {
             </button>
 
 
-            <audio ref={audioRef} src="/website/bg-music.mp3" loop />
+            <audio ref={audioRef} src="/bg-music.mp3" preload="auto" loop />
         </div>
     );
 }
