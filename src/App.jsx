@@ -4,7 +4,7 @@ import About from './about.jsx'
 import Header from './Header.jsx'
 import Aurora from './Aurora';
 import Contact from './Contact.jsx';
-
+import MusicButton from './MusicButton.jsx';
 
 function App() {
 
@@ -18,6 +18,7 @@ function App() {
           speed={0.5}
         />
       </div>
+      <MusicButton />
       <div>
         Euan
       </div>

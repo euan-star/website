@@ -12,7 +12,7 @@ function about() {
             About
           </div>
           <p>
-            Hi, I’m Euan! I’m someone who loves exploring worlds—whether it’s through open-world games, coding new ideas, or getting lost in a great seires. Gaming is my go-to escape, especially anything that lets me roam freely and discover new adventures.
+            Hi, I’m Euan! I’m someone who loves exploring worlds—whether it’s through open-world games, coding new ideas, or getting lost in a great series. Gaming is my go-to escape, especially anything that lets me roam freely and discover new adventures.
           </p>
           <p>
             I’m also passionate about coding and enjoy building things that challenge me creatively and logically. Outside the screen, I love staying active through sports. Overall, I’m a mix of curiosity, creativity, and a love for fun, immersive experiences.
